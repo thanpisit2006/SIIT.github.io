@@ -31,11 +31,5 @@ function showPage(pageId) {
     }
   }
 
-// คำนวณความยาว 70% ของ viewport width
-const viewportWidth = window.innerWidth; // ดึงค่าความกว้างหน้าต่าง
-const lengthInPx = 0.7 * viewportWidth;
-
-console.log(`ความยาว 70% ของหน้าต่าง HTML: ${lengthInPx}px`);
-
-//const lengthInPx / 900 = x;
-//const x * lengthInPx = y;
+// Add interactivity if needed
+console.log("Website is loaded!");
