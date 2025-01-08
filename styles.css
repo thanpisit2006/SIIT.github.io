@@ -757,7 +757,7 @@ body {
 }
 
 /* BAR */
-/* nav {
+nav {
   position: fixed;
   top: 0;
   align-items: center;
@@ -816,7 +816,7 @@ header, main, body {
   height: 100px;
   background-color: #fff;
   border: 2px solid black;
-} */
+}
 
 /* SLICKJS */
 .slideshow {
