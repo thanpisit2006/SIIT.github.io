@@ -15,21 +15,3 @@ function createSnowflake() {
 }
 
 setInterval(createSnowflake, 100);
-
-// BAR
-function showPage(pageId) {
-    // ซ่อนทุกหน้าก่อน
-    const pages = document.querySelectorAll('.page');
-    pages.forEach(page => {
-      page.style.display = 'none';
-    });
-  
-    // แสดงหน้าที่ต้องการ
-    const activePage = document.getElementById(pageId);
-    if (activePage) {
-      activePage.style.display = 'block';
-    }
-  }
-
-// Add interactivity if needed
-console.log("Website is loaded!");
